@@ -82,9 +82,6 @@ Puedes hacerlo de dos maneras:
         ```
     - Abre una solicitud de Pull Request
 
-## Licencia
-Este proyecto se encuentra bajo licencia de "Yoana Stamenova"
-
 ## Webgrafia:
 Para conseguir mi objetivo he recopilado información de:
 - <a href="https://tabernamiticabenidorm.com/es"> Pagina web original</a>
