@@ -11,68 +11,79 @@
 </head>
 
 <body>
-  <img class="bg-img" src="./img/background.jpg">
   <!-- BACKGROUND IMG -->
+  <!-- <img class="bg-img" src="./img/background.jpg">-->
 
-  <!-- LOGO IMG-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html"><img src="./img/logo-footer.png" height="80" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="./pages/menu.html">Carta</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./pages/contact.html">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./pages/reservas.html">Reserva</a>
-          </li>
-        </ul>
+
+  <!-- LOGO IMG AND NAVBAR-->
+  <section class="header-index">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./img/logo-footer.png" height="80" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/menu.html">Carta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contact.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/reservas.html">Reserva</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </section>
   <!-- NAV END -->
+
+  <!--WELCOME SECTION-->
   <section class="main">
-    <div class="container">
-      <div class="row d-flex align-items-center">
-        <div class="col-md-5 col-lg-6">
-          <div class="about-3-img text-center mb-40">
-            <img class="img-fluid" src="./img/dentro.jpeg" alt="taberna mitica">
+    <section id="hero-10" class="bg-fixed hero-section division">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-5 col-lg-6">
+            <div class="about-3-img text-center mb-40">
+              <img class="img-fluid" src="./img/shaslikdoble.jpeg" alt="taberna mitica">
+            </div>
+          </div>
+          <div class="col-md-7 col-lg-6">
+            <div class="intro">
+            <div class="about-3-txt mb-40">
+              <h3 class="h3-lg"><span class="intro">Restaurante</span> <br><span class="verde">especializado en comida
+                  búlgara y mediterránea</span></h3>
+              <p>TABERNA MÍTICA, ubicados en Benidorm (zona Rincón de Loix).</p>
+              <p>Más de 20 años de experiencia nos avalan, contando con un gran abanico de clientes asiduos que siempre
+                que quieren degustar una comida jugosa no dudan en venir a vernos.</p>
+              <p>Todos los que nos visitan, repiten.</p>
+              <p>Nuestros platos más típicos son:</p>
+              <ul>
+                <li>Ensalada shopska y tzatziki.</li>
+                <li>Queso feta en hojaldre con miel y sésamo.</li>
+                <li>Queso empanado con mermelada casera.</li>
+                <li>Tabla de embutidos y quesos</li>
+                <li>Carnes el shashlik (una brocheta de solomillo de cerdo o pollo marinados).</li>
+                <li>Sach (plancha de barro con carne, salchichas y verduras).</li>
+              </ul>
+            </div>
+            </div>
           </div>
         </div>
-        <div class="col-md-7 col-lg-6 d-flex align-items-center">
-          <div class="intro">
-            <h3 class="h3-lg"><span class="intro">Restaurante</span> <br><span class="verde">especializado en comida
-                búlgara y mediterránea</span></h3>
-            <p id="rojo">TABERNA MÍTICA, ubicados en Benidorm (zona Rincón de Loix).</p>
-            <p>Más de 20 años de experiencia nos avalan, contando con un gran abanico de clientes asiduos que siempre
-              que quieren degustar una comida jugosa no dudan en venir a vernos.</p>
-            <p>Todos los que nos visitan, repiten.</p>
-            <p>Nuestros platos más típicos son:</p>
-            <ul>
-              <li>Ensalada shopska y tzatziki.</li>
-              <li>Queso feta en hojaldre con miel y sésamo.</li>
-              <li>Queso empanado con mermelada casera.</li>
-              <li>Tabla de embutidos y quesos</li>
-              <li>Carnes el shashlik (una brocheta de solomillo de cerdo o pollo marinados).</li>
-              <li>Sach (plancha de barro con carne, salchichas y verduras).</li>
-            </ul>
-            <p>Y las mejores costillas ahumadas BBQ a la parrilla. Todo esto y mucho más que no te lo puedes perder...
-              ¡¡¡Te esperamos!!!</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
+    </section>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
 </body>
 

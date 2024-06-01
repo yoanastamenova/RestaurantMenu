@@ -8,6 +8,20 @@ body {
     overflow-x: hidden;
 }
 
+.header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+#hero-10{
+    background: url(../img/background.jpg);
+    height: 100vh;
+    filter: brightness(0.4);
+}
+
+@media (min-width: 321px) and (max-width: 413.95px) {
+}
 
 .bg-img {
     height: 100vh;
@@ -17,7 +31,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    z-index:  -1;
+    z-index:  -10;
     -webkit-filter: brightness(0.4);
     padding: 0;
 }
@@ -53,15 +67,11 @@ body {
     font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.label {
+    color: white;
+}
+
 .align-items-center {
     -ms-flex-align: center !important;
     align-items: center !important;
-}
-
-.verde {
-    color: green;
-}
-
-#rojo {
-    color: red;
 }
