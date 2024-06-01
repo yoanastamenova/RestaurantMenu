@@ -20,7 +20,7 @@
 </details>
 
 ## Objetivo 🎯
-Este proyecto es mi primero que lanzo desde el bootcamp que empece el dia 25.05.2024.
+Este proyecto es el que lanzo desde el FSD bootcamp que empece el dia 25.05.2024. Espero que esta bien para primero :)
 
 ## Sobre el proyecto 🔎
 Decidí crear una pagina web de mi restuarante favorito en Benidorm. Contiene el menu entero, la localizacion, una parte donde puedes hacer reserva y datos de contacto.
@@ -47,13 +47,13 @@ Decidí crear una pagina web de mi restuarante favorito en Benidorm. Contiene el
 
 ## Vistas
 Inicio
-<img src="./images/landing.png">  
+<img src="./img/indexpage.jpg">  
 Menu
-<img src="./images/register.png">
+<img src="./img/menupage.jpg">
 Contacto
-<img src="./images/login.png">
+<img src="./img/contantpage.jpg">
 Reserva
-<img src="./images/profile.png">
+<img src="./img/reservapage.jpg">
 
 ## Futuras funcionalidades
 ✅ Hacer pagina "Reserva"  
